@@ -36,7 +36,6 @@
 		307843D1A7BCFE64C3F62C58 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC57439F999EBFC8CB831C5C /* CoreTelephony.framework */; };
 		30ED439DB1319BFAA2F20AC0 /* mscorlib7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 574446A594BCEF1D440A5274 /* mscorlib7.cpp */; };
 		30F24E1EAD446D542B7FB7D6 /* mscorlib11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD064CCE93C23EBE0AED8A9A /* mscorlib11.cpp */; };
-		31BDA3B5252216D1002442F7 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		33784D0DB7FF9B80E680280E /* Generics1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6D8449DB026EB08AEC7D207 /* Generics1.cpp */; };
 		35A44CD0BB70E0E508E717F8 /* UnityICallRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E744CC9A9288C76E2797187 /* UnityICallRegistration.cpp */; };
 		3908494DA604E6F4AB21E4F1 /* UnityClassRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD844DE4BB0D0E84F0257214 /* UnityClassRegistration.cpp */; };
@@ -213,7 +212,6 @@
 		D62C4E49BD092B8E373E9A6C /* UnityEngine.UnityWebRequestModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11904D86881887DC4BBDDB4D /* UnityEngine.UnityWebRequestModule.cpp */; };
 		D64B46309330503236976D26 /* Assembly-CSharp_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C814C7CA7DC26A54415BECA /* Assembly-CSharp_CodeGen.c */; };
 		D76A4D4795C21EA336FB195C /* Il2CppGenericComDefinitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46DC4A6BA219A7739BC92ED3 /* Il2CppGenericComDefinitions.cpp */; };
-		D83B4538B49C6073E190959E /* NativeCallProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42B64394B518B3C03F6C795E /* NativeCallProxy.mm */; };
 		DF364B27AADAD14AF1B0A343 /* System.Configuration_CodeGen.c in Sources */ = {isa = PBXBuildFile; fileRef = 57C54F99B775A76ADC9E95BB /* System.Configuration_CodeGen.c */; };
 		E18C45528785D55AB8DC2498 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A84BA28335779B519B0EE7 /* StoreKit.framework */; };
 		E400444CB2CE1CF1B577B7D0 /* mscorlib3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8FA4655A8098724AD0DF923 /* mscorlib3.cpp */; };
@@ -1201,7 +1199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BDA3B5252216D1002442F7 /* Data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1418,7 +1415,6 @@
 				4A5147E2B298FA946C20207E /* UnityMonetizationPurchasingAdapter.m in Sources */,
 				7F5645CD944B70FC9ED58156 /* UnityJsonAdditions.m in Sources */,
 				427340E6BC3CBB6C865E821F /* UnityAdsPurchasingWrapper.m in Sources */,
-				D83B4538B49C6073E190959E /* NativeCallProxy.mm in Sources */,
 				A6EF4FCDA494725A69FF60B7 /* UnityMonetizationDecisionWrapper.m in Sources */,
 				277D4FD9B005051E89C2AF8C /* UnityAnalyticsWrapper.m in Sources */,
 			);
