@@ -36,9 +36,6 @@
 		307843D1A7BCFE64C3F62C58 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC57439F999EBFC8CB831C5C /* CoreTelephony.framework */; };
 		30ED439DB1319BFAA2F20AC0 /* mscorlib7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 574446A594BCEF1D440A5274 /* mscorlib7.cpp */; };
 		30F24E1EAD446D542B7FB7D6 /* mscorlib11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD064CCE93C23EBE0AED8A9A /* mscorlib11.cpp */; };
-		31BDA3BC25221BF5002442F7 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
-		31BDA3BD25221BF9002442F7 /* NativeCallProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42B64394B518B3C03F6C795E /* NativeCallProxy.mm */; };
-		31BDA3BE25221BFB002442F7 /* NativeCallProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5244417783EEE9484302E149 /* NativeCallProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33784D0DB7FF9B80E680280E /* Generics1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6D8449DB026EB08AEC7D207 /* Generics1.cpp */; };
 		35A44CD0BB70E0E508E717F8 /* UnityICallRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E744CC9A9288C76E2797187 /* UnityICallRegistration.cpp */; };
 		3908494DA604E6F4AB21E4F1 /* UnityClassRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD844DE4BB0D0E84F0257214 /* UnityClassRegistration.cpp */; };
@@ -1062,7 +1059,6 @@
 				07A2462A915A7BE7185D49C6 /* UnityJsonAdditions.h in Headers */,
 				B0CC43D19A059E4A0BE1905A /* UnityAdsUtilities.h in Headers */,
 				6F54432A9A243903B2446F9A /* UnityAdsPurchasingWrapper.h in Headers */,
-				31BDA3BE25221BFB002442F7 /* NativeCallProxy.h in Headers */,
 				1AB543B6B4D064A40C7E75FB /* IUnityInterface.h in Headers */,
 				48CE493A8B0658F146442B71 /* IUnityGraphics.h in Headers */,
 				2B7E47EA855C953E6A147255 /* IUnityGraphicsMetal.h in Headers */,
@@ -1203,7 +1199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BDA3BC25221BF5002442F7 /* Data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1386,7 +1381,6 @@
 				ACE44EB7B1EA30E0A58EE381 /* UnityEngine.UnityWebRequestModule_CodeGen.c in Sources */,
 				E5374238A2E31A255A95E6FA /* UnityEngine.cpp in Sources */,
 				260C4E5ABB8C3580B2B5B194 /* UnityEngine_CodeGen.c in Sources */,
-				31BDA3BD25221BF9002442F7 /* NativeCallProxy.mm in Sources */,
 				35A44CD0BB70E0E508E717F8 /* UnityICallRegistration.cpp in Sources */,
 				57A74AAFA83FFB0E22DC4C62 /* UnresolvedVirtualCallStubs.cpp in Sources */,
 				8CBD4787AF9CB8BD3A84BC6E /* com.unity.multiplayer-hlapi.Runtime.cpp in Sources */,
