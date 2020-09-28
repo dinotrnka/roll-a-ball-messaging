@@ -36,6 +36,7 @@
 		307843D1A7BCFE64C3F62C58 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC57439F999EBFC8CB831C5C /* CoreTelephony.framework */; };
 		30ED439DB1319BFAA2F20AC0 /* mscorlib7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 574446A594BCEF1D440A5274 /* mscorlib7.cpp */; };
 		30F24E1EAD446D542B7FB7D6 /* mscorlib11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD064CCE93C23EBE0AED8A9A /* mscorlib11.cpp */; };
+		31BDA3B5252216D1002442F7 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		33784D0DB7FF9B80E680280E /* Generics1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6D8449DB026EB08AEC7D207 /* Generics1.cpp */; };
 		35A44CD0BB70E0E508E717F8 /* UnityICallRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E744CC9A9288C76E2797187 /* UnityICallRegistration.cpp */; };
 		3908494DA604E6F4AB21E4F1 /* UnityClassRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD844DE4BB0D0E84F0257214 /* UnityClassRegistration.cpp */; };
@@ -1200,6 +1201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BDA3B5252216D1002442F7 /* Data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
